@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "publish": "vite build && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "@mdi/font": "7.4.47",
